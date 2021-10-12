@@ -1,6 +1,6 @@
 import React from 'react'
 import '../styles/Style.css'
-import video from './Media/Video/ghd.mp4'
+import video from './Media/Video/g2.mp4'
 export default function VideoMiddle() {
     return (
         <div>
