@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@600&display=swap');
+
+.headingTop{
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    margin: 10px 0 0 0;
+    font-family: 'Big Shoulders Stencil Display', cursive;
+}
+
+.map{
+    /* border:4px solid rgb(0, 234, 255); */
+    width:100%; 
+    height:100%;
+    border-radius: 4px;
+}
+.mapouter {
+    margin: 10px 10px 10px 10px;
+    position:relative;
+    border:4px solid #ffc400;
+    border-radius: 8px;
+    height:500px;
+    width:95%;
+}
+
+.gmap_canvas {
+    overflow:hidden;
+    /* margin: 10px 10px 10px 10px; */
+    /* border:4px solid red; */
+    background:none!important;
+    height:100%;
+    width:100%;
+}
+
+/* Media query for desktop and tab  */
+/* @media only screen and (max-width: 760px) {
+    .mapouter {
+        margin: 10px 10px 10px 10px;
+        height:500px;
+        width:95%;
+        border: 2px solid blue;
+    }
+} */
+
+/* Media Query For Desktop Only  */
+@media only screen and (min-width: 1200px) {
+    .map{
+        border-radius: 4px;
+        width:100%; 
+        height:100%;
+    }
+
+    .mapouter {
+        margin: 2% 5% 5% 5%;
+        position:relative;
+        height:800px;
+        width:90%;
+        border-radius: 8px;
+    }
+    
+    .gmap_canvas {
+        overflow:hidden;
+        background:none!important;
+        height:100%;
+        width:100%;
+    }
+}

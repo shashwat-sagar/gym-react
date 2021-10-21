@@ -1,0 +1,42 @@
+.card {
+  margin: 10px;
+}
+
+.trainer {
+  display: flex;
+  flex-direction: row;
+}
+
+@media (max-width: 1260px) {
+  .trainer {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.h1_what {
+  color: #ffc400;
+  text-align: center;
+}
+
+.p_what {
+  text-align: center;
+  font-size: 18px;
+}
+
+.what1 {
+  border: 1px solid red;
+}
+
+.heading {
+  margin-left: 22px;
+}
+
+.prathuCard {
+  border: 1px solid #ffc400;
+  margin: 2px;
+}
+
+hr.line {
+    float: left;
+}

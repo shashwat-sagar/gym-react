@@ -1,0 +1,29 @@
+.cardCon{
+    display: flex;
+    flex-direction: row;
+    margin: 0 0 0 100px ;
+}
+
+@media only screen and (max-width: 720px) {
+    .cardCon{
+        display: flex;
+        flex-direction: column;
+        margin: 0 0 0 0px ;
+    }
+}
+
+#cardBody{
+    background-color: rgb(77, 77, 77);
+    color: #ffc400;
+    margin: 20px 0 20px 20px;
+    border-radius: 10px;
+    width: 350px;
+    height: 400px;
+    border: 1px solid #ffe694;
+}
+
+#exLogo{
+    margin: 15px 48px 0 48px;
+    width: 250px;
+    /* border: 2px solid red; */
+}

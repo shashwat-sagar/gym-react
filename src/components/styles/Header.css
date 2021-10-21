@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap');
+/* Navbar Start */
+*{
+    box-sizing: border-box;
+}
+body {
+    background-color: #4d4d4d;
+}
+/* .header {
+    position:fixed;
+    width: 100%;
+    margin-bottom: 10%;
+} */
+.navbar-nav>li>a {
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-right: 20px;
+    color: #ffffff;
+    
+}
+
+
+.navbar-toggler {
+    padding: .20rem .50rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 2px solid black;
+}
+
+.nav-link {
+    color: #ffffff !important
+}
+.nav-link:hover {
+    color:#ffc400 !important;
+    transition: 800ms;
+    
+}
+
+
+.wrapper {
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    background-color: #ffc400;
+    clip-path: polygon(81% 0, 100% 0, 100% 50%, 100% 100%, 71% 100%);
+    transition: 1s all;
+    
+}
+
+.navbar-brand {
+    color: #fff;
+    width: 245px;
+    /* border: 2px solid green;  */
+    font-family: 'Allerta Stencil', sans-serif;
+    margin-right: 37px;
+    font-size: 28px;
+}
+.gymLogo2{
+    margin: 0px 0px 0px 0px;
+    width: 31%;
+    /* border: 2px solid green; */
+
+}
+
+.navbar-red:hover .wrapper {
+    clip-path: polygon(81% 0, 100% 0, 100% 50%, 100% 100%, 65% 100%)
+}
+
+.navbar-brand:hover {
+    color: #fff
+}
+
+.navbar-red {
+    background-color: rgb(34, 34, 34);
+    color: #fff
+    
+}
+
+.all-show {
+    z-index: 10
+}
+
+/* .headerText{
+    color: #ffc400;
+     margin-left: 40%; 
+} */
+@media screen {
+    
+}
+/* Navbar Ends */
