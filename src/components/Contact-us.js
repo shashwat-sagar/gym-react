@@ -11,7 +11,7 @@ function Contact() {
     </div>
 
 
-    <div class="mapouter"><div class="gmap_canvas"><iframe className="map" id="gmap_canvas" src="https://maps.google.com/maps?q=7369+963,%20Gabhariya,%20Chauraha,%20Sultanpur,%20Uttar%20Pradesh%20228001&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div></div>
+    <div class="mapouter"><div class="gmap_canvas"></div></div>
     
        
       </div>
