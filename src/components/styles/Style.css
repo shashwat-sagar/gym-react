@@ -1,0 +1,68 @@
+
+/* Main Section Starts */
+.middle{
+    /* border: 5px solid greenyellow; */
+    margin: 0 0 0 0;
+    background-color: #000000;
+    color: #ffc400;
+    }
+    
+    #video-con{
+        /* border: 2px solid red; */
+    }
+    
+    #video{ 
+        /* background-color: transparent;
+        left: 30%;
+        top: 20%;
+        max-width: 80%;
+        max-height: 80%;
+        width: auto;
+        height: auto;
+        opacity: 20%;
+        position: absolute; 
+        clear: both; */
+        width: 100%;
+        height: 100%;
+        background-color: transparent;
+        opacity: 40%;
+         
+        }
+    
+    
+    #comment{
+        background-color: #4d4d4d;
+        margin-bottom: 20px;
+    }
+    
+    #comment .paraunderVid{
+    text-align: center;
+    
+    margin-bottom: 20px;
+    }
+    
+    #button{
+       
+    }
+    
+    #caro{
+        /* border: 2px solid green; */
+        
+        margin-bottom: 20px;
+    }
+    
+    #row1{
+        /* border: 2px solid red; */
+        border: none;
+    }
+    
+    #row1 .card{
+        /* border: 2px solid blue; */
+        border-radius: 7px;
+        background-color: #1d1d1d;
+        color: #ffffff;
+    }
+    /* Main Section Ends */
+    
+    
+    
