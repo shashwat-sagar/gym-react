@@ -19,8 +19,23 @@ function Home() {
             </div>
           </div> */}
 
-          <video id="video" autoplay="autoplay" muted="muted" loop="loop">
+          {/* <video id="video" autoplay="autoplay" muted="muted" loop="loop">
             <source src={video} type="video/mp4" />
+          </video> */}
+          <video autoPlay loop muted
+          style={{
+            position: "relative",
+            width: "100%",
+            left: "50%",
+            // top: "50%",
+            height: "100%",
+            objectFit: "cover",
+            padding: "",
+            margin: "28% 0 -29% 0",
+            transform: "translate(-50%, -50%)"
+          }}
+          >
+            <source src={video} type="video/mp4"/>
           </video>
         </div>
         <div id="comment">
