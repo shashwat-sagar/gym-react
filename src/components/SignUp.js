@@ -87,7 +87,7 @@ function SignUp() {
                 <i class="fa fa-google" onClick={signInWithGoogle}></i>
               </span>{" "}
               <span class="social">
-                <i class="fa fa-facebook" onClick={() => handleOnClick(facebookProvider)}></i>
+                <i class="fa fa-facebook" onClick={signInWithFacebook}></i>
               </span>{" "}
               <span class="social">
                 <i class="fa fa-twitter"></i>
