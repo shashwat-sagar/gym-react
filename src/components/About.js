@@ -5,10 +5,11 @@ import "./styles/About.css";
 function About() {
   return (
     <div className="about">
-      <div class="card border-warning">
+      <div class="card border-warning" id="aboutFirst">
         <h1 class="card-header text-warning">About Us</h1>
+        <div className="line"></div>
         <div class="card-body">
-          <h5 class="card-title">Special title treatment</h5>
+          <h5 class="card-title mb-2 text-muted">Special title treatment</h5>
           <p class="card-text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim

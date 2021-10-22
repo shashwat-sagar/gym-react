@@ -1,8 +1,8 @@
 // import React, { Component } from "react";
 import Card from "./CardUi";
 // import Card1 from "./Card1";
-import Card2 from "./Card2";
-import Card3 from "./Card3";
+// import Card2 from "./Card2";
+// import Card3 from "./Card3";
 import "./styles/card-style.css";
 
 function Cards() {
@@ -12,15 +12,10 @@ function Cards() {
         <div className="row">
           <h1 className="h1-train">Our Trainers</h1>
           <div className="line"></div>
-          <div className="col-md-4">
+          <div className="col-md-4" id="TrainerCard">
             <Card />
           </div>
-          <div className="col-md-4">
-            <Card2 />
-          </div>
-          <div className="col-md-4">
-            <Card3 />
-          </div>
+          
         </div>
       </div>
     </div>

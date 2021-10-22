@@ -1,6 +1,6 @@
 import React from "react";
 import image from "../Images/1.png";
-// import "./card-style.css";
+import "./styles/card-style.css";
 // import "./About.css"
 
 function About() {
@@ -8,7 +8,7 @@ function About() {
     <div>
       <div className="card text-center">
         <div className="overflow">
-          <img src="https://www.sktperfectdemo.com/demos/sktgym/wp-content/themes/gym-pro/images/team-img1.jpg" alt={image} className="card-img-top" />
+          <img src="https://www.sktperfectdemo.com/demos/sktgym/wp-content/themes/gym-pro/images/team-img1.jpg" id="trainerImg" alt={image} className="" />
         </div>
         <div className="card-body text-dark">
           <h4 className="card-title text-warning">Mr. XYZ</h4>

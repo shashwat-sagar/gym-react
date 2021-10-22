@@ -1,7 +1,10 @@
 .card {
   margin: 10px;
+  border: none;
 }
-
+.card-title{
+  margin: -4% 0 0 1.2%;
+}
 .trainer {
   display: flex;
   flex-direction: row;
@@ -33,7 +36,7 @@
 }
 
 .prathuCard {
-  border: 1px solid #ffc400;
+  /* border: 1px solid #ffc400; */
   margin: 2px;
 }
 
