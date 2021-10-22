@@ -11,29 +11,18 @@ function About() {
         <div class="card-body">
           <h5 class="card-title mb-2 text-muted">Special title treatment</h5>
           <p class="card-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum
+          We hope to help you live a healthy lifestyle! We do this by helping you find the best equipment for your home gym, 
+          studio or commercial gym, while keeping your budget, lifestyle and fitness goals in mind. We have all kinds of fitness equipment, 
+          including strength equipment, aerobics, cross training and so on. Our excellent team is always helpful, 
+          so please contact us to discuss your needs.
             <br />
             <br />
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum Lorem ipsum
-            dolor sit amet, consectetur adipiscing elit, sed do incididunt ut
-            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-            exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-            cupidatat non proident, sunt in culpa qui officia deserunt mollit
-            anim id est laborum.
+            Clients are at the focal point of what we do and why we do it! We have a group of prepared salespeople who are prepared 
+            to help you with your exercise center gear needs. Our group will actually want to respond to your inquiries, 
+            from legitimate item data to the most ideal way of incorporating hardware into your activity schedule. 
+            We endeavor to guarantee we have solid associations with our providers, giving you the most ideal costs in the business. 
+            Indeed, on the off chance that you track down a superior cost on one of our center item range,
+             we'll match it as a feature of our image guarantees.
           </p>
         </div>
       </div>
