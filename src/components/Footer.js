@@ -47,6 +47,7 @@ function Footer() {
                             <a href="https://www.facebook.com/" class="facebook"><i class="bx bxl-facebook"></i></a>
                             <a href="https://www.instagram.com/athlete_club99/?hl=en" class="instagram"><i class="bx bxl-instagram"></i></a>
                             <a href="https://youtu.be/4vI-IS3GgbY" class="youtube"><i class="bx bxl-youtube"></i></a>
+                            <a href="https://play.google.com/store" class="googleplay"><i class="fab fa-google-play"></i></a>
                         </div>
               </div>
             </div>

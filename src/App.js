@@ -16,6 +16,7 @@ import Reset from "./components/Reset";
 import Cards from "./components/Card";
 import DashboardNav from "./components/Dashboard_Nav";
 import Exercise from "./components/Exercise";
+import Stores from "./components/Stores.js";
 
 function App() {
   return (
@@ -26,53 +27,63 @@ function App() {
             <Route path="/exercises">
               <Header />
               <Exercise />
+              <Stores />
               <Footer />
             </Route>
 
             <Route path="/reset">
               <Header />
               <Reset />
+              <Stores />
               <Footer />
             </Route>
 
             <Route path="/register">
               <Header />
               <SignIn />
+              <Stores />
               <Footer />
             </Route>
 
             <Route path="/dashboard">
               <DashboardNav />
               <Dashboard />
+              <Stores />
+              <Footer />
             </Route>
 
             <Route path="/premium">
               <Header />
               <SignUp />
+              <Stores />
               <Footer />
             </Route>
 
             <Route path="/contact">
               <Header />
               <Contact />
+              <Stores />
               <Footer />
             </Route>
 
             <Route path="/gallery">
               <Header />
               <Gallery />
+              <Stores />
               <Footer />
             </Route>
 
             <Route path="/services">
               <Header />
               <Services />
+              <Stores />
               <Footer />
             </Route>
 
             <Route path="/diets">
               <Header />
               <Diets />
+              <Stores />
               <Footer />
             </Route>
 
@@ -80,12 +91,14 @@ function App() {
               <Header />
               <About />
               <Cards />
+              <Stores />
               <Footer />
             </Route>
 
             <Route path="/">
               <Header />
               <Home />
+              <Stores />
               <Footer />
             </Route>
           </Switch>
