@@ -25,7 +25,7 @@ function App() {
         <div className="app">
           <Switch>
             <Route path="/exercises">
-              <Header />
+            <DashboardNav />
               <Exercise />
               <Stores />
               <Footer />
@@ -81,7 +81,7 @@ function App() {
             </Route>
 
             <Route path="/diets">
-              <Header />
+              <DashboardNav />
               <Diets />
               <Stores />
               <Footer />
