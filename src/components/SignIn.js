@@ -3,21 +3,20 @@ import { useAuthState } from "react-firebase-hooks/auth";
 import { Link, useHistory } from "react-router-dom";
 import {
   auth,
-  facebookProvider,
   registerWithEmailAndPassword,
   signInWithGoogle,
   signInWithFacebook
 } from "./firebase";
 
 function SignIn() {
-  const handleOnClick = async (provider) => {
-    const res = await signInWithFacebook(provider);
-    console.log(res)
-  }
+//   const handleOnClick = async (provider) => {
+//     const res = await signInWithFacebook(provider);
+//     console.log(res)
+//   }
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
     const [name, setName] = useState("");
-    const [user, loading, error] = useAuthState(auth);
+    const [user, loading] = useAuthState(auth);
     const history = useHistory();
     const register = () => {
       if (!name) alert("Please enter name");
@@ -26,7 +25,7 @@ function SignIn() {
     useEffect(() => {
       if (loading) return;
       if (user) history.replace("/dashboard");
-    }, [user, loading]);
+    });
   return (
     <div class="container mt-5 mb-5">
       <div class="row d-flex align-items-center justify-content-center">
