@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link, useHistory } from "react-router-dom";
 import { auth, signInWithEmailAndPassword, signInWithGoogle, signInWithFacebook} from "./firebase";
 import { useAuthState } from "react-firebase-hooks/auth";
-
+import './styles/login_form.css'
 function SignIn() {
 //   const handleOnClick = async (provider) => {
 //     const res = await signInWithFacebook(provider);
@@ -64,7 +64,7 @@ function SignIn() {
                 onChange={(e) => setPassword(e.target.value)}
                 class="form-control"
                 placeholder="password"
-                id="password"
+                id="password" 
               />{" "}
             </div>
             <button
