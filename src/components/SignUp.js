@@ -10,7 +10,7 @@ function SignUp() {
 //   }
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const [user, loading, error] = useAuthState(auth);
+  const [user, loading] = useAuthState(auth);
   const history = useHistory();
   useEffect(() => {
     if (loading) {
@@ -18,7 +18,7 @@ function SignUp() {
       return;
     }
     if (user) history.replace("/dashboard");
-  }, [user, loading]);
+  });
 
   return (
     <div class="container mt-5 mb-5">
