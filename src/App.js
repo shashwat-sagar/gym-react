@@ -37,7 +37,7 @@ function App() {
 
             <Route path="/register">
               <Header />
-              <SignUp />
+              <SignIn />
               <Footer />
             </Route>
 
@@ -48,7 +48,7 @@ function App() {
 
             <Route path="/premium">
               <Header />
-              <SignIn />
+              <SignUp />
               <Footer />
             </Route>
 
