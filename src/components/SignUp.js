@@ -4,10 +4,10 @@ import { auth, signInWithEmailAndPassword, signInWithGoogle, signInWithFacebook}
 import { useAuthState } from "react-firebase-hooks/auth";
 
 function SignUp() {
-  const handleOnClick = async (provider) => {
-    const res = await signInWithFacebook(provider);
-    console.log(res)
-  }
+//   const handleOnClick = async (provider) => {
+//     const res = await signInWithFacebook(provider);
+//     console.log(res)
+//   }
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [user, loading, error] = useAuthState(auth);
