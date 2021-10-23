@@ -1,0 +1,24 @@
+#comment{
+    padding-top: 2%;
+    margin: -4px 0 0 0;
+    /* border: 2px solid greenyellow; */
+    background-color: #262626;
+    
+}
+
+
+@media only screen and (min-width: 1200px) {
+    #comment{
+        padding-top: 2%;
+        margin: 5px 0 0 0;
+        /* border: 2px solid greenyellow; */
+        background-color: #262626;
+    }
+    
+}
+
+
+.paraunderVid{
+    color: #ffc400;
+    font-weight: 400;
+}

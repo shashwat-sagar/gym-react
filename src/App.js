@@ -18,6 +18,7 @@ import DashboardNav from "./components/Dashboard_Nav";
 import Exercise from "./components/Exercise";
 import Stores from "./components/Stores.js";
 
+
 function App() {
   return (
     <div className="App">
@@ -62,6 +63,7 @@ function App() {
             <Route path="/contact">
               <Header />
               <Contact />
+              
               <Stores />
               <Footer />
             </Route>

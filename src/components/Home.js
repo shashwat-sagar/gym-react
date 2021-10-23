@@ -1,5 +1,17 @@
 import React from "react";
 import video from "../videos/1.mp4";
+import './styles/Home.css'
+import image1 from "../Images/gympics/1.jpeg"
+import image2 from "../Images/gympics/2.jpeg"
+import image3 from "../Images/gympics/3.jpeg"
+import image4 from "../Images/gympics/4.jpeg"
+import image5 from "../Images/gympics/5.jpeg"
+import image6 from "../Images/gympics/6.jpeg"
+import image7 from "../Images/gympics/7.jpeg"
+import image8 from "../Images/gympics/8.jpeg"
+import image9 from "../Images/gympics/9.jpeg"
+import image10 from "../Images/gympics/10.jpeg"
+import image11 from "../Images/gympics/11.jpeg"
 
 function Home() {
   return (
@@ -40,10 +52,7 @@ function Home() {
         </div>
         <div id="comment">
           <p class="paraunderVid">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt
-            fuga earum quidem delectus dolorem consequuntur, temporibus
-            reiciendis quia in a facilis doloribus voluptates totam hic sint at
-            assumenda rem ea!
+           Exercise not only changes your body, it changes your mind, your attitude, and your mood.
           </p>
         </div>
       </div>
@@ -83,7 +92,7 @@ function Home() {
                 <div class="col-lg-4">
                   <div class="card">
                     <img
-                      src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                      src={image1}
                       class="card-img-top"
                       alt="..."
                     />
@@ -106,7 +115,7 @@ function Home() {
                 <div class="col-lg-4 d-none d-lg-block">
                   <div class="card">
                     <img
-                      src="https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80"
+                      src={image2}
                       class="card-img-top"
                       alt="..."
                     />
@@ -129,7 +138,7 @@ function Home() {
                 <div class="col-lg-4 d-none d-lg-block">
                   <div class="card">
                     <img
-                      src="https://images.unsplash.com/photo-1605296867304-46d5465a13f1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80"
+                      src={image3}
                       class="card-img-top"
                       alt="..."
                     />
@@ -158,7 +167,7 @@ function Home() {
                 <div class="col-lg-4 col-md-12">
                   <div class="card">
                     <img
-                      src="https://images.unsplash.com/photo-1574680096145-d05b474e2155?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80"
+                      src={image4}
                       class="card-img-top"
                       alt="..."
                     />
@@ -181,7 +190,7 @@ function Home() {
                 <div class="col-lg-4 d-none d-lg-block">
                   <div class="card">
                     <img
-                      src="https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=869&q=80"
+                      src={image5}
                       class="card-img-top"
                       alt="..."
                     />
@@ -204,7 +213,7 @@ function Home() {
                 <div class="col-lg-4 d-none d-lg-block">
                   <div class="card">
                     <img
-                      src="https://images.unsplash.com/photo-1599058917212-d750089bc07e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80"
+                      src={image6}
                       class="card-img-top"
                       alt="..."
                     />
@@ -233,7 +242,7 @@ function Home() {
                 <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
                   <div class="card">
                     <img
-                      src="https://images.unsplash.com/photo-1549060279-7e168fcee0c2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80"
+                      src={image7}
                       class="card-img-top"
                       alt="..."
                     />
@@ -256,7 +265,7 @@ function Home() {
                 <div class="col-lg-4 mb-4 mb-lg-0 d-none d-lg-block">
                   <div class="card">
                     <img
-                      src="https://images.unsplash.com/photo-1519505907962-0a6cb0167c73?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                      src={image8}
                       class="card-img-top"
                       alt="..."
                     />
@@ -279,7 +288,7 @@ function Home() {
                 <div class="col-lg-4 mb-4 mb-lg-0 d-none d-lg-block">
                   <div class="card">
                     <img
-                      src="https://images.unsplash.com/photo-1519311965067-36d3e5f33d39?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80"
+                      src={image9}
                       class="card-img-top"
                       alt="..."
                     />

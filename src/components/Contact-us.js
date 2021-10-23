@@ -1,5 +1,6 @@
 import React from "react";
 import './styles/Contact-us.css';
+import GoogleApiWrapper from "./Map.js";
 function Contact() {
   return (
     <>
@@ -11,7 +12,11 @@ function Contact() {
     </div>
 
 
-    <div class="mapouter"><div class="gmap_canvas"></div></div>
+    <div class="mapouter">
+      <div class="gmap_canvas">
+      <GoogleApiWrapper />
+      </div>
+    </div>
     
        
       </div>

@@ -4,10 +4,15 @@
 }
 .card-title{
   margin: -2% 0 0 1.2%;
+  text-align: center;
 }
 .trainer {
   display: flex;
   flex-direction: row;
+}
+
+.card-text{
+  text-align: justify;
 }
 
 @media (max-width: 1260px) {
