@@ -10,8 +10,8 @@ import image6 from "../Images/gympics/6.jpeg"
 import image7 from "../Images/gympics/7.jpeg"
 import image8 from "../Images/gympics/8.jpeg"
 import image9 from "../Images/gympics/9.jpeg"
-import image10 from "../Images/gympics/10.jpeg"
-import image11 from "../Images/gympics/11.jpeg"
+// import image10 from "../Images/gympics/10.jpeg"
+// import image11 from "../Images/gympics/11.jpeg"
 
 function Home() {
   return (
