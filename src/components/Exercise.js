@@ -1,5 +1,6 @@
 import React from "react";
 import "./styles/Exercises.css";
+import { Link } from "react-router-dom";
 // import logo1 from "../Images/png/1.png"
 import logo2 from "../Images/png/2.png"
 import logo3 from "../Images/png/3.png"
@@ -22,7 +23,7 @@ function Exercise() {
           />
 
           <div class="card-body">
-          <h3 id="excercisesCards">C<font color="#fff">hes</font>t</h3>
+          <h3 id="excercisesCards"><Link className="linkk" to="/ex"><button className="cardButton">Biceps</button></Link></h3>
             <p class="card-text">
               Quick
             </p>
@@ -36,7 +37,7 @@ function Exercise() {
           />
 
           <div class="card-body">
-          <h3 id="excercisesCards">B<font color="#fff">ac</font>k</h3>
+          <h3 id="excercisesCards"><Link className="linkk" to="/diets"><button className="cardButton">Back</button></Link></h3>
             <p class="card-text">
             
               Quick
@@ -50,7 +51,7 @@ function Exercise() {
           />
 
           <div class="card-body">
-          <h3 id="excercisesCards">C<font color="#fff">hes</font>t</h3>
+          <h3 id="excercisesCards"><Link className="linkk" to="/diets"><button className="cardButton">Abs</button></Link></h3>
             <p class="card-text">
               Quick
             </p>
@@ -66,7 +67,7 @@ function Exercise() {
           />
 
           <div class="card-body">
-            <h3 id="excercisesCards">T<font color="#fff">ricep</font>s</h3>
+            <h3 id="excercisesCards"><Link className="linkk" to="/diets"><button className="cardButton">Triceps</button></Link></h3>
             <p class="card-text">
               Quick
             </p>
@@ -80,7 +81,7 @@ function Exercise() {
           />
 
           <div class="card-body">
-          <h3 id="excercisesCards">B<font color="#fff">ac</font>k</h3>
+          <h3 id="excercisesCards"><Link className="linkk" to="/diets"><button className="cardButton">Sholder</button></Link></h3>
             <p class="card-text">
               Quick
             </p>
@@ -93,7 +94,7 @@ function Exercise() {
           />
 
           <div class="card-body">
-          <h3 id="excercisesCards">B<font color="#fff">ac</font>k</h3>
+          <h3 id="excercisesCards"><Link className="linkk" to="/diets"><button className="cardButton">Chest</button></Link></h3>
             <p class="card-text">
               Quick
             </p>
@@ -108,7 +109,7 @@ function Exercise() {
           />
 
           <div class="card-body">
-          <h3 id="excercisesCards">B<font color="#fff">ac</font>k</h3>
+          <h3 id="excercisesCards"><Link className="linkk" to="/diets"><button className="cardButton">Chest</button></Link></h3>
             <p class="card-text">
               Quick
             </p>
@@ -122,7 +123,7 @@ function Exercise() {
           />
 
           <div class="card-body">
-          <h3 id="excercisesCards">B<font color="#fff">ack</font></h3>
+          <h3 id="excercisesCards"><Link className="linkk" to="/diets"><button className="cardButton">Chest</button></Link></h3>
             <p class="card-text">
               Quick
             </p>
@@ -135,7 +136,7 @@ function Exercise() {
           />
 
           <div class="card-body">
-          <h3 id="excercisesCards">B<font color="#fff">ac</font>k</h3>
+          <h3 id="excercisesCards"><Link className="linkk" to="/diets"><button className="cardButton">Chest</button></Link></h3>
             <p class="card-text">
               Quick
             </p>

@@ -18,6 +18,8 @@ import DashboardNav from "./components/Dashboard_Nav";
 import Exercise from "./components/Exercise";
 import Stores from "./components/Stores.js";
 
+import Exc from "./components/Exc";
+
 
 function App() {
   return (
@@ -28,6 +30,14 @@ function App() {
             <Route path="/exercises">
             <DashboardNav />
               <Exercise />
+              <Stores />
+              <Footer />
+            </Route>
+
+            <Route path="/ex">
+            <DashboardNav />
+
+              <Exc />
               <Stores />
               <Footer />
             </Route>
