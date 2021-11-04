@@ -19,6 +19,7 @@ import Exercise from "./components/Exercise";
 import Stores from "./components/Stores.js";
 
 import Exc from "./components/Exc";
+import Trainer from "./components/Trainer";
 
 
 function App() {
@@ -27,6 +28,14 @@ function App() {
       <Router>
         <div className="app">
           <Switch>
+          <Route path="/aboutTrainer">
+            <Header />
+              <Trainer />
+              <Stores />
+              <Footer />
+            </Route>
+
+
             <Route path="/exercises">
             <DashboardNav />
               <Exercise />

@@ -1,0 +1,125 @@
+.HeadingTop{
+    color: #fff;
+    text-align: center;
+    margin: 20px 0 20px 0;
+}
+
+.lineTop{
+    color:#ffc400;
+    opacity: 50%;
+    width: 50%;
+    margin: 0 0 30px 0;
+}
+#imageTop{
+    border: 2px solid #ffc400;
+    border-radius: 8px ;
+    width: 50%;
+    height: 55rem;
+    margin: 0 0 4% 25%;
+}
+
+.paraTop{
+    color: #ffc400;
+    text-align: justify;
+    max-width: 90%;
+    margin: 0 0 5% 5%;
+  
+}
+.paraMid{
+    color: #ffc400;
+    text-align: justify;
+    max-width: 90%;
+    margin: 0 0 5% 5%;
+}
+
+.HeadingMid{
+    color: #fff;
+    text-align: center;
+    margin: 20px 0 20px 0;
+    
+}
+
+.SubHeadingMid{
+    color: #fff;
+    text-align: center;
+    margin:2% 0 4% 0;
+    font-family:monospace;
+  
+}
+
+#imageMid{
+    border: 2px solid #ffc400;
+    border-radius: 8px ;
+    width: 50%;
+   
+    margin: 0 0 4% 25%;
+}
+
+.Content-Mid{
+    margin: 5% 0 0 0;
+}
+.row1{
+    width: 80%;
+    color:#fff;
+    font-size: 15px;
+    text-align: left;
+    margin: 10% 0 10% 0;
+    
+    background-color: #222222;
+}
+.col{
+    
+    margin: 5% 0 0 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 720px) {
+#imageTop{
+    border: 2px solid #ffc400;
+    border-radius: 8px ;
+    width: 90%;
+    height: 500px;
+    margin: 0 0 10% 5%;
+}
+#imageMid{
+    border: 2px solid #ffc400;
+    border-radius: 8px ;
+    width: 90%;
+    height: 16rem;
+    margin: 0 0 10% 5%;
+}
+
+.paraTop{
+    color: #ffc400;
+    text-align: justify;
+    max-width: 90%;
+    margin: 0 0 5% 5%;
+}
+.paraMid{
+    color: #ffc400;
+    text-align: justify;
+    max-width: 90%;
+    margin: 0 0 5% 5%;
+   
+}
+
+
+.SubHeadingMid{
+    color: #fff;
+    text-align: center;
+    margin:5% 0 4% 0;
+    font-family:monospace;
+}
+
+}

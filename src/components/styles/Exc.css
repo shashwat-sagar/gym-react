@@ -1,0 +1,30 @@
+#workouts{
+    border: 2px solid #ffc400;
+    margin: 5% 0 5% 50%;
+    border-radius: 10px;
+}
+#workouts:hover{
+    box-shadow: 0 0 8px #ffc400, 0 0 12px #ffc400, 0 0 15px #ffc400;
+    transition: 400ms;
+}
+
+
+#cardB{
+   
+    margin: 0 0 0 25%;
+    width: 100%;
+}
+
+@media only screen and (max-width: 720px) {
+    #workouts{
+        border: 2px solid #ffc400;
+        margin: 10px 0 0 0;
+        border-radius: 10px;
+    }
+    #cardB{
+       
+        margin: 0 0 0 0;
+        width: 100%;
+    }
+    
+}

@@ -46,9 +46,7 @@ function About() {
                 <div class="card-body">
                   <h5 class="card-title text-warning">Cross Fit</h5>
                   <p class="card-text">
-                    This is a longer card with supporting text below as a
-                    natural lead-in to additional content. This content is a
-                    little bit longer.
+                  A form of high intensity interval training, CrossFit is a strength and conditioning workout that is made up of functional movement performed at a high intensity level.
                   </p>
                 </div>
               </div>
@@ -63,9 +61,7 @@ function About() {
                 <div class="card-body">
                   <h5 class="card-title text-warning">Boot Camp</h5>
                   <p class="card-text">
-                    This is a longer card with supporting text below as a
-                    natural lead-in to additional content. This content is a
-                    little bit longer.
+                  Boot camp workouts are similar to other circuit training workouts. They use many familiar body weight exercises such as pushups, burpees, and crunches.
                   </p>
                 </div>
               </div>
@@ -78,11 +74,9 @@ function About() {
                   alt="..."
                 />
                 <div class="card-body">
-                  <h5 class="card-title text-warning">Aerobi Capacity</h5>
+                  <h5 class="card-title text-warning">Aerobic Capacity</h5>
                   <p class="card-text ">
-                    This is a longer card with supporting text below as a
-                    natural lead-in to additional content. This content is a
-                    little bit longer.
+                  Aerobic exercise is physical exercise of low to high intensity that depends primarily on the aerobic energy-generating process. "Aerobic" is defined as "relating to, involving, or requiring free oxygen", and refers to the use of oxygen to adequately meet energy demands during exercise via aerobic metabolism.
                   </p>
                 </div>
               </div>
@@ -97,9 +91,7 @@ function About() {
                 <div class="card-body">
                   <h5 class="card-title text-warning">12 Week Challenge</h5>
                   <p class="card-text">
-                    This is a longer card with supporting text below as a
-                    natural lead-in to additional content. This content is a
-                    little bit longer.
+                  Want to improve your health? Need to lose weight? This activity plan for beginners, combining running and strength and flexibility workouts, will get you into the habit of regular exercise in 12 weeks.
                   </p>
                 </div>
               </div>
@@ -114,9 +106,7 @@ function About() {
                 <div class="card-body">
                   <h5 class="card-title text-warning">Personal Training</h5>
                   <p class="card-text">
-                    This is a longer card with supporting text below as a
-                    natural lead-in to additional content. This content is a
-                    little bit longer.
+                  A personal trainer will work with clients, either in a small group setting or one-on-one, on their fitness goals, which includes improving a client's muscular endurance, strengthening a client's cardiovascular capabilities, and increasing a client's physical flexibility.
                   </p>
                 </div>
               </div>
@@ -131,9 +121,7 @@ function About() {
                 <div class="card-body">
                   <h5 class="card-title text-warning">Group Classes</h5>
                   <p class="card-text">
-                    This is a longer card with supporting text below as a
-                    natural lead-in to additional content. This content is a
-                    little bit longer.
+                  When it comes to fitness, working out in group settings can boost motivation, burn more calories and make exercise fun.
                   </p>
                 </div>
               </div>
@@ -142,58 +130,7 @@ function About() {
         </div>
       </div>
 
-      {/* <div className="trainer border-warning"> */}
-        {/* <div class="card" style={{ width: "22rem" }}>
-          <img class="card-img-top" src={trainer1} alt="Card image cap" />
-          <h3 class="card-header text-warning">Our trainer</h3>
-          <h5 class="card-header text-warning">Mrs. XYZ</h5>
-          <div class="card-body">
-            <p class="card-text">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea,
-              itaque. Molestias distinctio, sit libero amet quaerat qui dolores
-              blanditiis reiciendis?
-            </p>
-          </div>
-        </div> */}
-
-        {/* <div class="card" style={{ width: "22rem" }}>
-          <img class="card-img-top" src={trainer1} alt="Card image cap" />
-          <h3 class="card-header text-warning">Our trainer</h3>
-          <h5 class="card-header text-warning">Mrs. XYZ</h5>
-          <div class="card-body">
-            <p class="card-text">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea,
-              itaque. Molestias distinctio, sit libero amet quaerat qui dolores
-              blanditiis reiciendis?
-            </p>
-          </div> */}
-        {/* </div> */}
-
-        {/* <div class="card" style={{ width: "22rem" }}>
-          <img class="card-img-top" src={trainer1} alt="Card image cap" />
-          <h3 class="card-header text-warning">Our trainer</h3>
-          <h5 class="card-header text-warning">Mrs. XYZ</h5>
-          <div class="card-body">
-            <p class="card-text">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea,
-              itaque. Molestias distinctio, sit libero amet quaerat qui dolores
-              blanditiis reiciendis?
-            </p>
-          </div>
-        </div> */}
-
-        {/* <div class="card" style={{ width: "22rem" }}>
-          <img class="card-img-top" src={trainer1} alt="Card image cap" />
-          <h3 class="card-header text-warning">Our trainer</h3>
-          <h5 class="card-header text-warning">Mrs. XYZ</h5>
-          <div class="card-body">
-            <p class="card-text">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea,
-              itaque. Molestias distinctio, sit libero amet quaerat qui dolores
-              blanditiis reiciendis?
-            </p>
-          </div>
-        </div> */}
+ 
       </div>
   );
 }

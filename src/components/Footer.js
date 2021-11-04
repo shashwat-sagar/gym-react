@@ -1,4 +1,6 @@
 import React from 'react'
+// import { Link } from "react-router-dom";
+
 
 function Footer() {
     return (
@@ -14,18 +16,24 @@ function Footer() {
               <h4><font color="#ffc400">O</font>ur <font color="#ffc400">S</font>ervices</h4>
                 <ul>
                   <li>
-                    <i class="bx bx-chevron-right"></i> <a href="/">Fitness</a>
+                    <i class="bx bx-chevron-right"></i> Fitness
                   </li>
                   <li>
                     <i class="bx bx-chevron-right"></i>
-                    <a href="/">Personal Trainer</a>
+                  Personal Trainer
                   </li>
                   <li>
                     <i class="bx bx-chevron-right"></i>{" "}
-                    <a href="/">Nutritionists</a>
+                    Nutritionists
                   </li>
                 </ul>
+                <br />
+                <h4><font color="#ffc400">P</font>rivacy <font color="#ffc400">P</font>olicy</h4>
+                <ul>
+                  <li><a href="https://athlete-club-privacy-policy.netlify.app/"><i class="bx bx-chevron-right"></i>Privacy Policy</a></li>
+                </ul>
               </div>
+              
               <div class="col-lg-3 col-md-6 footer-contact">
               <h4><font color="#ffc400">C</font>ontact <font color="#ffc400">U</font>s</h4>
                 <p>

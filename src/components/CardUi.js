@@ -1,25 +1,28 @@
 import React from "react";
 import image from "../Images/1.png";
-import "./styles/card-style.css";
+import "./styles/CardUi.css";
+import { Link } from "react-router-dom";
 // import "./About.css"
 
 function About() {
   return (
-    <div>
+    <div className="CardUi">
       <div className="card text-center">
         <div className="overflow">
-          <img src="https://www.sktperfectdemo.com/demos/sktgym/wp-content/themes/gym-pro/images/team-img1.jpg" id="trainerImg" alt={image} className="" />
+          <img src={image} id="trainerImg" alt={image} className="trainImg" />
         </div>
         <div className="card-body text-dark">
-          <h4 className="card-title text-warning">Mr. XYZ</h4>
+          <h6 className="card-title text-warning">Mr. Prashant Praksdh Upadhayay</h6>
+          <br></br>
           <p className="card-text text-secondary">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime
-            nisi sed nesciunt fugiat accusantium minus. Placeat eos laborum
-            repellendus voluptatem.
+           Trained by Gold's Gym Fitness Institute 
           </p>
-          <a href="/" className="btn btn-outline-success">
-            Go Anywhere
-          </a>
+          <Link to="/aboutTrainer">
+          <button className="trainerPageButton">
+          
+           Trainer
+            </button>
+          </Link>
         </div>
       </div>
     </div>
@@ -27,3 +30,5 @@ function About() {
 }
 
 export default About;
+
+// Trained by Gold's Gym Fitness Institute

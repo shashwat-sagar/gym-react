@@ -1,0 +1,43 @@
+.CardUi{
+    /* border: 4px solid blue; */
+    margin: 3%  5% 0 ;
+}
+.h1-train{
+    color: #ffc400;
+    text-align: center;
+    margin-top: 5%;
+  
+}
+.card-title{
+    font-family: monospace;
+    font-size: 20px;
+}
+.trainImg{
+    width: 90%;
+    border: none;
+    border-radius: 10px;
+}
+
+#TrainerCard{
+    /* border: 2px solid green; */
+    margin: 0 0 0 34%;
+}
+
+.trainerPageButton{
+    background-color: #ffc400;
+    border: none;
+    border-radius: 6px;
+    width: 60%;
+    height: 2.8rem;
+}
+@media only screen and (max-width: 720px) {
+    .CardUi{
+        /* border: 4px solid blue; */
+        margin: 3% 0 5% 0 ;
+       
+    }
+    #TrainerCard{
+        /* border: 2px solid green; */
+        margin: 0 0 0 0%;
+    }
+}
